@@ -2,7 +2,7 @@
 
 # Slack incoming web-hook URL and user name
 url='CHANGEME'		# example: https://hooks.slack.com/services/QW3R7Y/D34DC0D3/BCADFGabcDEF123
-username='Zabbix'   #Place here any name 'as sender'
+username='Zabbix'   #Place here any name 'as sender in slack'
 
 ## Values received by this script:
 # To = $1 (Slack channel or user to send the message to, specified in the Zabbix web interface; "@username" or "#channel")
