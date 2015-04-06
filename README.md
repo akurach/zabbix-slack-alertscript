@@ -55,7 +55,7 @@ Then, create a "Slack" user on the "Users" sub-tab of the "Administration" tab w
 Finally, an action can then be created on the "Actions" sub-tab of the "Configuration" tab within the Zabbix servers web interface to notify the Zabbix "Slack" user ensuring that the "Subject" is "PROBLEM" for "Default message" and "OK" should you choose to send a "Recovery message".
 Additionally, you can have multiple different Zabbix users with "Slack" media types that each notify unique Slack users or channels upon different Zabbix actions.
 
-Keeping the messages short is probably a good idea - use something such as "{TRIGGER.NAME} - {HOSTNAME} ({IPADDRESS})" for the contents of each message.
+Keeping the messages short is probably a good idea - use something such as "{TRIGGER.NAME} - {HOSTNAME} ({IPADDRESS})" (without comma's) for the contents of each message.
 
 ## Testing
 
